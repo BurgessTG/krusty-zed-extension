@@ -1,7 +1,7 @@
 id = "krusty"
 name = "Krusty"
 description = "Terminal-based AI coding assistant with multi-provider support and 100+ language servers."
-version = "0.2.3"
+version = "0.2.4"
 schema_version = 1
 authors = ["BurgessTG"]
 repository = "https://github.com/BurgessTG/Krusty"
@@ -11,26 +11,26 @@ name = "Krusty"
 icon = "./icons/krusty.svg"
 
 [agent_servers.krusty.targets.darwin-aarch64]
-archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.3/krusty-aarch64-apple-darwin.tar.gz"
+archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.4/krusty-aarch64-apple-darwin.tar.gz"
 cmd = "./krusty"
 args = ["--acp"]
 
 [agent_servers.krusty.targets.darwin-x86_64]
-archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.3/krusty-x86_64-apple-darwin.tar.gz"
+archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.4/krusty-x86_64-apple-darwin.tar.gz"
 cmd = "./krusty"
 args = ["--acp"]
 
 [agent_servers.krusty.targets.linux-aarch64]
-archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.3/krusty-aarch64-unknown-linux-gnu.tar.gz"
+archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.4/krusty-aarch64-unknown-linux-gnu.tar.gz"
 cmd = "./krusty"
 args = ["--acp"]
 
 [agent_servers.krusty.targets.linux-x86_64]
-archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.3/krusty-x86_64-unknown-linux-gnu.tar.gz"
+archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.4/krusty-x86_64-unknown-linux-gnu.tar.gz"
 cmd = "./krusty"
 args = ["--acp"]
 
 [agent_servers.krusty.targets.windows-x86_64]
-archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.3/krusty-x86_64-pc-windows-msvc.zip"
+archive = "https://github.com/BurgessTG/Krusty/releases/download/v0.2.4/krusty-x86_64-pc-windows-msvc.zip"
 cmd = "./krusty.exe"
 args = ["--acp"]
