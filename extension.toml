@@ -1,7 +1,7 @@
 id = "krusty"
 name = "Krusty"
 description = "Terminal-based AI coding assistant with multi-provider support and 100+ language servers."
-version = "0.2.6"
+version = "0.2.8"
 schema_version = 1
 authors = ["BurgessTG"]
 repository = "https://github.com/BurgessTG/Krusty"
